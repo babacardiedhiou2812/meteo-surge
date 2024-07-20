@@ -1,0 +1,85 @@
+/* Styles généraux */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Couleur de fond par défaut */
+}
+
+.weather-info {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fond rouge clair pour température élevée */
+.weather-info.bg-red {
+  background-color: #ce6767; /* Rouge clair */
+}
+
+/* Fond bleu clair pour température basse */
+.weather-info.bg-blue {
+  background-color: #a7cef3; /* Bleu clair */
+}
+
+.weather-info h1 {
+  color: #333333;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.weather-info p {
+  color: #666666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.weather-info img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Styles pour la section latitude/longitude */
+
+.lat-long-info {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lat-long-info h2 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lat-long-info input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.lat-long-info button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lat-long-info button:hover {
+  background-color: #0056b3;
+}
+
